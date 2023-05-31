@@ -1,0 +1,335 @@
+:root{
+    ---web-font-color-gold--- :linear-gradient(315deg, #1e1d1b 0%, #cc9934 74%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: linear-gradient(to bottom, black, transparent), url('/src/image/Background.png') ;
+}
+.gd {
+    background-image: linear-gradient(to bottom, black, transparent);
+
+}
+
+.gg {
+    background-image: linear-gradient(to bottom, rgb(12, 3, 50), transparent);
+    opacity: 0.8;
+}
+
+.gu {
+    background-image: linear-gradient(to top, black, transparent);
+
+}
+
+.gsl {
+    background-image: linear-gradient(to right, rgb(0, 44, 87), transparent);
+    position: absolute;
+    height: 100%;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    top: 0;
+    opacity: 0.9;
+}
+
+.orvalay {
+    position: absolute;
+    width: 16%;
+    height: 24%;
+    color: white;
+    box-sizing: border-box;
+    padding-top: 3%;
+    background-color: #253747;
+    border-radius: 7px;
+    opacity: 0.5;
+}
+
+.orvalay:hover {
+    background: none;
+    opacity: 1;
+    font-weight: 900;
+}
+
+.background_A {
+    background-image: url(./image/BannerImage.png) ;
+    position: absolute;
+    height: 100%;
+    left: 0;
+    right: 0;
+    z-index: -9999999;
+    top: 0;
+
+}
+
+.background_B {
+    background-image: url(./image/6a091095950237\ 1.png);
+    background: cover center;
+    position: absolute;
+    height: 595px;
+    left: 0;
+    right: 0;
+    z-index: -2;
+    top: 0;
+    opacity: 0.5;
+}
+.backgraound-c{
+    background-image: url(https://cutewallpaper.org/21/white-background-gif/Tag-For-White-Background-File-Hart-S-Inversor-On-White-.gif) ;
+    position: absolute;
+    height: 100%;
+    left: 0;
+    right: 0;
+    z-index: -9999999;
+}
+span,
+a,
+link {
+    text-decoration: none;
+    color: white;
+}
+
+i {
+    color: black;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.side-main>p {
+    font-size: 12px;
+}
+
+
+.letter-spacing {
+    letter-spacing: 1.2px;
+    line-height: 230%;
+}
+
+.rounded-A {
+    border-radius: 15px;
+}
+
+.box {
+    display: grid;
+    width: 100%;
+    height: 100%;
+    /* border: 1px solid black; */
+    justify-content: center;
+}
+
+
+
+.Loacl {
+    position: absolute;
+    height: 450px;
+    background: white;
+    left: 0;
+    right: 0;
+    z-index: -2;
+}
+
+.Loacl-B {
+    position: absolute;
+    height: 300px;
+    background: white;
+    left: 0;
+    right: 0;
+    z-index: -2;
+}
+
+
+.Loacl-A {
+    position: absolute;
+    height: 200px;
+    background: rgb(255, 255, 255);
+    left: 0;
+    right: 0;
+    z-index: -1;
+    transform: translateY(-50%);
+}
+
+.box-a {
+    width: 250px !important;
+    height: 150px !important;
+}
+    
+@media screen and (max-width : 600px) {
+    * {
+        margin: 0 0.5px !important;
+    }
+    .background_A {
+        height: 250px;
+    }
+input:placeholder-shown , textarea:placeholder-shown , input {
+    font-size: 12px !important;
+    width: 120%;
+}
+    .dispalayNone {
+        display: none;
+    }
+
+    .Loacl-B {
+        height: 260px;
+    }
+
+    .Loacl-A {
+        height: 80px;
+    }
+
+    .Loacl {
+        height: 110%;
+    }
+
+    .box-a-600 {
+        margin: 0;
+        width: 320px !important;
+        height: 420px !important;
+    }
+
+    .card-box {
+        width: 70%;
+    }
+
+    .svg {
+        /* width: 30px; */
+        max-width: 30%;
+    }
+    .Svg-Item {
+        display: grid;
+        grid-template-columns: 30% 30% 30%;
+        font-size: 8%;
+        font-weight: 700;
+    }
+
+    .text-sm-h {
+        font-size: 18px !important;
+    }
+
+    .text-sm-p {
+        font-size: 8px !important;
+        margin: 0 !important;
+    }
+
+    .abs {
+        padding: 0 !important;
+        margin: 0 !important;
+        width: 90% !important;
+    }
+
+    .abs1 {
+        max-height: 200px;
+        margin: 2% !important;
+        width: 200px;
+    }
+
+    .carousel {
+        height: 75% !important;
+        margin: 0% !important;
+    }
+
+    .letter-spacing {
+        letter-spacing: 0.8px;
+    }
+}
+@media screen and (max-width : 720px) {
+    .abs1 {
+        
+        max-height: 55% ;
+        margin: 1% 1.5% ;
+        width: 400px ;
+    }
+}
+
+@media screen and (max-width : 1080px) {
+    .orvalay{
+        width: 24%;
+        height: 9%;
+    }
+    .svg {
+        /* width: 30px; */
+        max-width: 25%;
+    }
+    .background_A {
+        height: 550px;}
+    .Svg-Item {
+        display: grid;
+        grid-template-columns: 40% 40% 40%;
+        font-size: 8%;
+        font-weight: 500;
+    }
+    .abs1 {
+        max-height: 70% ;
+        margin: 1% 1.5% ;
+        width: 611px ;
+    }
+}
+
+@media screen and (max-width : 400px) {
+    .dispalayNone400 {
+        display: none;
+    }
+    input:placeholder-shown , textarea:placeholder-shown , input {
+        font-size: 10px !important;
+        width: 80px;
+    }
+    .orvalay {
+        height: 22.5%;
+        width: 67%;
+    }
+
+    .abs1 {
+        left: 4% ;
+        max-height: 19% ;
+        margin: 2% 3.5% ;
+        width: 264px !important;
+    }
+
+    .svg {
+        width: 40px !important;
+    }
+    .Svg-Item {
+        font-size: 10px !important;
+        display: grid;
+        grid-template-columns: 30% 30% 30%;
+    }
+}
+
+.top-up {
+    position: absolute;
+    left: 5%;
+    top: -15%;
+}
+
+.top-right {
+    position: absolute;
+    right: 0;
+}
+
+Footer>ul>li {
+    list-style: none;
+}
+
+.fot-box {
+    height: 40%;
+}
+
+.font-weight-bold {
+    font-weight: 700;
+}
+
+.sec1 {
+    background-color: #76aee0;
+}
+
+.sec2 {
+    border: 1px black;
+    border-radius: 50px 10px 10px;
+    padding-top: 8%;
+}
+
+.footer {
+    position: relative;
+    bottom: 0;
+}

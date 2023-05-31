@@ -1,0 +1,35 @@
+.section-1{
+    /* background-color: red; */
+    padding: 10% 4% 12% 13%;
+    height: 470px;
+}
+.list-image > ul >li {
+    list-style-image: url(../../image/Done_ring_round.svg)  !important; 
+}
+.location > ul > li {
+    list-style-image: url(../../image/Send_hor_light.png) !important;
+}
+
+.paragraph{
+    font-size: 100%;
+    padding: 5% 0 ;
+}
+table {
+    width: 350px;
+    height: 200px;
+    margin: 15% 5%;
+}
+.abs{
+   position: absolute;
+    left: 10%;
+   padding: 5%;
+   width: 50%;
+}
+.abs1{
+    background: linear-gradient(to right , rgb(255, 255, 255) , transparent);
+    position: absolute;
+    max-width: 1116px;
+    max-height: 450px;
+    opacity: 0.5;
+    margin: 0.2% 1%;
+ }
